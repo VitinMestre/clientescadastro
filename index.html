@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>Clientes Cadastro</title>
+</head>
+<body>
+    <center>
+    <h1>Clientes Cadastrados</h1>
+    </center>
+    <font color="white">
+    <table>
+        <tr>
+            <th>Cliente</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>E-mail</th>
+        </tr>
+        <tr>
+            <td>Ana Regina</td>
+            <td>29</td>
+            <td>Curitiba</td>
+            <td>Paraná</td>
+            <td>ana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Fernanda Silva</td>
+            <td>42</td>
+            <td>Joinville</td>
+            <td>Santa Catarina</td>
+            <td>fernanda@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Rodrigo Ferreira</td>
+            <td>70</td>
+            <td>Curutiba</td>
+            <td>Paraná</td>
+            <td>rodrigo@gmail.com</td>
+        </tr>
+    </table>
+    </font>
+    <br><br>
+        <fieldset>
+            <legend>Cadastrar novo cliente</legend>
+            <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" />
+            <br>
+            <label for="nome">Idade:</label>
+            <input type="text" name="idade" id="idade" />
+            <br>
+            <label for="nome">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" />
+            <br>
+            <label for="estados">Estados:</label>
+            <select name="estados" id="cidades">
+                <option value="parana">Paraná</option>
+                <option value="ceara">Ceará</option>
+                <option value="goias">Goiás</option>
+                <option value="mato grosso">Mato Grosso</option>
+                <option value="minas gerais">Minas Gerais</option>
+            </select>
+            <br>
+            <label for="Email">Email:</label>
+            <input type="text" name="email" id="email"/>
+            <br>
+            <br>
+            <button type="reset" id="cancel">Cancelar</button>
+            <button type="button" id="save">Salvar</button>
+
+        </form>
+        </fieldset>
+
+</body>
+</html>
